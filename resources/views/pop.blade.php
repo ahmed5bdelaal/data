@@ -1,7 +1,7 @@
 @extends('layout')
 @section('script')
 <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDVgQTrG35l7D_VcU-ofvtY61CDquIEVGA&callback=initMap&libraries=&v=weekly"
+        src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly"
         defer
       ></script>
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -10,7 +10,7 @@
             'packages':['geochart'],
             // Note: you will need to get a mapsApiKey for your project.
             // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
-            'mapsApiKey': 'AIzaSyDVgQTrG35l7D_VcU-ofvtY61CDquIEVGA'
+            ''
           });
           google.charts.setOnLoadCallback(drawRegionsMap);
          
